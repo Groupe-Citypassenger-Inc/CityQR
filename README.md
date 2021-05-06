@@ -12,6 +12,6 @@
   
 - now you can use
 
-  ngOnInit(){  
+  ```ngOnInit(){  
     wfqr(name, encryption, password, this.qrCodeContainer.nativeElement)  
-  }
+  }```
