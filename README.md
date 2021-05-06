@@ -13,7 +13,7 @@
       build: { 
         options: { 
           scripts: [
-            "node_modules/citypassenger_qrcode/qr_code.js",
+            "node_modules/CityQR/qr_code.js",
             ...
           ] 
         }
