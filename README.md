@@ -43,7 +43,6 @@
   ```
 #### Then
 
-- 
 
 - inside component.html, create a div with `#aNameForQrCodeContainer`
 
