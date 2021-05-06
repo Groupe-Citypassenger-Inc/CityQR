@@ -10,7 +10,8 @@
   - `declare function wfqr(name, password, encryption, divElement): any;` above `@Component`
   - add `  @ViewChild('aNameForQrCodeContainer', { static: true }) qrCodeContainer: ElementRef;`
   
-- now you can use 
-`ngOnInit(){  
-  wfqr(name, encryption, password, this.qrCodeContainer.nativeElement)  
-}`
+- now you can use
+
+  ngOnInit(){  
+    wfqr(name, encryption, password, this.qrCodeContainer.nativeElement)  
+  }
