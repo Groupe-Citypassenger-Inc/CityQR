@@ -2,7 +2,7 @@
   "name": "citypassenger_qrcode",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "qr_code.js",
   "scripts": {
     "test": "echo \"No test specified\""
   },
