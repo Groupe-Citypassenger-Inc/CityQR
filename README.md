@@ -1,6 +1,6 @@
 # citypassenger_qrcode
 
-## How to use qr_code in angular :
+## How to use qr_code in angular if you download the file :
 
 - Add `qr_code.js` to your_project/src/assets
 
