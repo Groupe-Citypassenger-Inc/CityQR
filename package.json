@@ -1,0 +1,15 @@
+{
+  "name": "citypassenger_qrcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimotheCity/citypassenger_qrcode.git"
+  },
+  "author": "Citypassenger",
+  "license": "ISC"
+}
