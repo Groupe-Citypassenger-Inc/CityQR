@@ -24,7 +24,7 @@
 
 #### If you download the file :
 
-- Add `qr_code.js` to your_project/src/assets
+- Add `qr_code.js` to project_path/src/assets
 - In angular.json add 
 
   ```
@@ -33,7 +33,7 @@
       build: { 
         options: { 
           scripts: [
-            "projects/landing/src/assets/qr_code.js",
+            "project_path/src/assets/qr_code.js",
             ...
           ] 
         }
