@@ -2,7 +2,7 @@
 
 ## How to use qr_code in angular :
 
-- Add qr_code.js inside your_project/src/assets
+- Add `qr_code.js` to your_project/src/assets
 
 - inside component.html, create a div with `#aNameForQrCodeContainer`
 
