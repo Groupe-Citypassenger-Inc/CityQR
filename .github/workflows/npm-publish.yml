@@ -9,7 +9,7 @@ on:
 
 
 jobs:
-  publish-npm:
+  minify-and-publish-npm:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12'
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: 'https://registry.npmjs.org'      
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTO_TOKEN}}
