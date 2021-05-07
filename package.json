@@ -1,6 +1,6 @@
 {
   "name": "city_qrcode",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "main": "qr_code.js",
   "scripts": {
