@@ -13,12 +13,16 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - name: Minify Action
-        uses: anthonyftwang/minify-action@v1.0.1
       - uses: actions/setup-node@v2
         with:
           node-version: '12'
-          registry-url: 'https://registry.npmjs.org'      
+          registry-url: 'https://registry.npmjs.org'
+      - name: Minify dep
+        run: npm i minify
+      - name: sponge dep
+        run: npm i sponge
+      - name: minify js
+        run: ./node_modules/.bin/minify qr_code.js | ./node_modules/.bin/sponge qr_code.js
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTO_TOKEN}}
